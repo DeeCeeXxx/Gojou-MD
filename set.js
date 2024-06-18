@@ -7,14 +7,14 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'zokk',
+module.exports = { session: process.env.SESSION_ID || 'Put Session Id here',
     PREFIXE: process.env.PREFIX || "~",
-    OWNER_NAME: process.env.OWNER_NAME || "Cod3Uchiha",
-    NUMERO_OWNER : process.env.NUMERO_OWNER || "263......",              
+    OWNER_NAME: process.env.OWNER_NAME || "David Cyril",
+    NUMERO_OWNER : process.env.NUMERO_OWNER || "234......",              
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "non",
     AUTO_DOWNLOAD_STATUS: process.env.AUTO_DOWNLOAD_STATUS || 'non',
-    BOT : process.env.BOT_NAME || 'TKM bot',
-    URL : process.env.BOT_MENU_LINKS || 'https://telegra.ph/file/626e7105422c8908f723d.jpg',
+    BOT : process.env.BOT_NAME || 'Gojou-MD',
+    URL : process.env.BOT_MENU_LINKS || 'https://i.imgur.com/YKVlucn.jpeg',
     MODE: process.env.PUBLIC_MODE || "yes",
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME,
