@@ -1,8 +1,8 @@
 {
-  "name":"TKM-bot",
+  "name":"Gojou-MDt",
   "description":"Deploy now your Gojou md ,Brought to you by the David Cyril.Make sure you fill all valuables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://wallpapers.com/images/hd/gojo-satoru-and-night-scene-k9iiafgr6qy0e0ej.jpg",
+  "logo":"https://i.imgur.com/YKVlucn.jpeg",
   "repository":"https://github.com/DeeCeeXxx/Gojou-MD",
   "succes_url":"/",
   "stack":"container",
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"Gojo md",
+      "value":"Gojo MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://wallpapers.com/images/hd/gojo-satoru-and-night-scene-k9iiafgr6qy0e0ej.jpg",
+      "value":"https://i.imgur.com/YKVlucn.jpeg,https://i.imgur.com/8HAg3bW.jpeg,https://i.imgur.com/OF7xVX9.jpeg,https://i.imgur.com/xMZ57Zv.jpeg,https://i.imgur.com/m1NCQ2q.jpeg,https://i.imgur.com/NNvjna5.jpeg",
       "required":false
        
      },
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Cod3Uchiha"
+    "value": "David Cyril"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of togo '234')",
     "required":false,
-    "value": "263775571820,263785028126"
+    "value": "2349066528353"
   },
     "WARN_COUNT":
   {
