@@ -9,8 +9,8 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/Cod3Uchiha/TKM-bot.gits /root/TKM-bot
-WORKDIR /root/TKM-bot/
+RUN git clone https://github.com/DeeCeeXxx/Gojou-MD /root/Gojou-MD
+WORKDIR /root/Gojou-MD/
 
 
 COPY package.json .
