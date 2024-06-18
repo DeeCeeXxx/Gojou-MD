@@ -5,7 +5,7 @@ const s = require(__dirname + "/../set");
 
 zokou(
     {
-        nomCom : 'awake',
+        nomCom : 'alive',
         categorie : 'General'
         
     },async (dest,zk,commandeOptions) => {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' _TKM-bot_ is running on server 99. ')
+repondre(' _*Gojou-md*_. ')
 
 }
     });
