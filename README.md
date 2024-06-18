@@ -4,7 +4,7 @@
 <u>⚡ A simple WhatsApp User Bot Coded By David Cyril ⚡</u>
 </p>
 <p align="center">
-<img src="https://bit.ly/4aYPu3H" width="500" height="500"/>       
+<img src="https://wallpapers.com/images/hd/gojo-satoru-and-night-scene-k9iiafgr6qy0e0ej.jpg"/>       
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•__I'M+GOJOU-+MD__•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+DAVID+CYRIL;RELEASED+DATE+15%2F6%2F2024." alt="Typing SVG" /></a>
 </p> 
@@ -45,24 +45,6 @@ Gojou-MD is a easy to use WhatsApp bot.
       Gojou-MD whatsapp bot is an easy to use whatsapp robot.   |  Itachi Uchiha whatsapp bot
 # 
 # 
-### [ DEPLY ON TERMUX ]
- ```   
-apt update
-apt upgrade
-pkg update && pkg upgrade
-pkg install bash
-pkg install libwebp
-pkg install git -y
-pkg install nodejs -y 
-pkg install ffmpeg -y 
-pkg install wget
-pkg install imagemagick -y
-git clone https://github.com/DeeCeeXxx/Itachi_Uchiha-Md
-cd Gojou-MD
-npm install
-npm start
-```
-
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 * [🧑‍💻 Follow Gojou-MD Whatsapp Channel🧑‍💻](https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z)
