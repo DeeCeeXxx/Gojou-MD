@@ -1,5 +1,5 @@
 {
-  "name": "TKM bot",
+  "name": "Gojou-MD",
   "version": "1",
   "description": "",
   "main": "index.js",
@@ -12,15 +12,15 @@
   "keywords": [
     "bot",
     "Baileys",
-    "TKM-BOT",
+    "Gojou-MD",
     "whatsapp",
     "whatsapp-bot",
-    "Cod3Uchiha",
-    "Manjiro-Sano-md",
-    "Tkm bot",
-    "CodeUchiha"
+    "David Cyril",
+    "Gojou-MD",
+    "DeeCeeXxx",
+    "Gojou-MD"
   ],
-  "author": "Cod3Uchiha",
+  "author": "David Cyril",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
