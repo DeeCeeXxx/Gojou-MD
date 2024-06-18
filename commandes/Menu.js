@@ -6,7 +6,7 @@ const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
-zokou({ nomCom: "menu2", categorie: "General" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "menu", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../framework//zokou");
     var coms = {};
@@ -32,47 +32,50 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭─────────────────✣
-│☹︎╭─────────────✣
-│☹︎│▸ *BOT-OWNER* : ${s.OWNER_NAME}
-│☹︎│▸ *TODAY* : ${date}
-│☹︎│▸ *PREFIX* : ${s.PREFIXE}
-│☹︎│▸ *WORKTYPE* : ${mode}
-│☹︎│▸ *PLUGINS* : ${cm.length} 
-│☹︎│▸ *STORAGE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│☹︎│▸ *RUNNING ON* : ${os.platform()}
-│☹︎│▸ *THEME* : *Gojou-md*
-│☹︎╰──────────────✇
-╰──────────────────✇
-╭───────────────✣
-...《《 *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V3.0.0* 》》...
-╰───────────────✇\n`;
+╭─────────────────☉
+│▫️╭─────────────☉
+│▫️│*BOT-OWNER* : ${s.OWNER_NAME}
+│▫️│*Date* : ${date}
+│▫️│*PREFIX* : ${s.PREFIXE}
+│▫️│*WORKTYPE* : ${mode}
+│▫️│*CMDs* : ${cm.length} 
+│▫️│*STORAGE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│▫️│*RUNNING ON* : ${os.platform()}
+│▫️│*THEME* : *Gojou-md*
+│▫️╰──────────────☉
+╰──────────────────☉
+╭───────────────☉
+ ☉〘 Gojou-md 〙☉
+ ☉by David Cyril☉
+╰───────────────☉\n`;
     
 let menuMsg = `
-╭─────────✣
-   *like a boss*
-╰─────────✣
+╭─────────☉
+    *Keep*
+    *it Real*
+╰─────────☉
 
- *❄︎LIST PLUGINS❄︎*
+ *❄︎LIST CMDs❄︎*
 `;
 
     for (const cat in coms) {
-        menuMsg += ` ╭──────✣ *${cat}* ✣─────☹︎`;
+        menuMsg += ` ╭──────☉ *${cat}* ☉─────▸`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-│✇│ ${cmd}`;
+│▫️│ ${cmd}`;
         }
         menuMsg += `
 ╰────────────···▸▸ \n`
     }
 
     menuMsg += `
-◇            ◇
-*»»————————— ★ ——————————««*
-|⏣BELTAH-MD CREATED BY BELTAH TECH TEAM
-|⏣ *RELEASED ON : 02.06.2024*
-|⏣THANK YOU FOR CHOOSING *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗*
-*»»—————————— ★ ——————————««*
+            
+*———————————————————————————*
+|▫️Gojou-md
+|▫️a Multi device whatsapp bot
+|▫️Created by _David Cyril_
+|▫️_Repo_ :https://github.com/DeeCeeXxx/Gojou-MD
+*———————————————————————————*
 `;
 
    var lien = mybotpic();
