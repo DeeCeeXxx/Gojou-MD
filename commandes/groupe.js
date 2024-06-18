@@ -38,7 +38,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "📣" }, async (dest, z
 👤 Autor : *${nomAuteurMessage}* 👋 
 📜 Message : *${mess}* 📝
 
-⬡keep using⬡┃TKM bot┃⬡
+⬡keep using⬡┃Gojou-MD┃⬡
 ========================\n
 \n
 
