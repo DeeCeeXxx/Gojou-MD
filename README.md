@@ -4,7 +4,7 @@
 <u>⚡ A simple WhatsApp User Bot Coded By David Cyril ⚡</u>
 </p>
 <p align="center">
-<img src="https://wallpapers.com/images/hd/gojo-satoru-and-night-scene-k9iiafgr6qy0e0ej.jpg"/>       
+<img src="https://i.imgur.com/YKVlucn.jpeg"/>       
 <p align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=EB+Garamond&weight=800&size=28&duration=4000&pause=1000&random=false&width=435&lines=+•__I'M+GOJOU-+MD__•;MULTI-DEVICE+WHATSAPP+BOT;DEVELOPED+BY+DAVID+CYRIL;RELEASED+DATE+15%2F6%2F2024." alt="Typing SVG" /></a>
 </p> 
