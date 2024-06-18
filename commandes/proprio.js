@@ -14,7 +14,7 @@ const{repondre,ms,dev,superUser}=com;
 
   if(!superUser)
   {
-    return repondre("This command is for TKM bot owner only");
+    return repondre("This command is for *Gojou-md* owner only");
   }
 
   const {exec}=require("child_process")
