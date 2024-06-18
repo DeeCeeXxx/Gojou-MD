@@ -41,21 +41,20 @@ const date = moment().format('DD/MM/YYYY');
 │▫️│*CMDs* : ${cm.length} 
 │▫️│*STORAGE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
 │▫️│*RUNNING ON* : ${os.platform()}
-│▫️│*THEME* : *Gojou-md*
+│▫️│*THEME* : *Gojou-MD*
 │▫️╰──────────────☉
 ╰──────────────────☉
 ╭───────────────☉
- ☉〘 Gojou-md 〙☉
+ ☉〘 Gojou-MD 〙☉
  ☉by David Cyril☉
 ╰───────────────☉\n`;
     
 let menuMsg = `
 ╭─────────☉
-    *Keep*
-    *it Real*
+    *YOWAIMO*
 ╰─────────☉
 
- *❄︎LIST CMDs❄︎*
+ *❄︎COMMAND LIST❄︎*
 `;
 
     for (const cat in coms) {
@@ -71,7 +70,7 @@ let menuMsg = `
     menuMsg += `
             
 *———————————————————————————*
-|▫️Gojou-md
+|▫️Gojou-MD
 |▫️a Multi device whatsapp bot
 |▫️Created by _David Cyril_
 |▫️_Repo_ :https://github.com/DeeCeeXxx/Gojou-MD
@@ -82,7 +81,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Gojou-MD*, déveloper David Cyril" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -92,7 +91,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Gojou*, déveloper David Cyril" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
