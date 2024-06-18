@@ -27,7 +27,7 @@
  OR BY [`SCANNING QR CODE`](https://davidcyril-session-id-generator.onrender.com/wasiqr)** 
 3. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/DeeCeeXxx/Gojou-MD)**
 8. **You can visit Bot whatsapp channel [`BY CLICKING HERE`](https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z) for more**
-9. **All Tutorials Available `COMING SOON`**
+9. **All Tutorials Are `COMING SOON`**
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
