@@ -119,7 +119,7 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "💞" }, async (dest, zk
 
 
 
-    let message = "👋 welcome to *Gojou-md* ! here is the dev :\n\n";
+    let message = "Yowaimo!!!👋 welcome to *Gojou-MD* ! here is the dev :\n\n";
 
     for (const dev of devs) {
 
@@ -189,7 +189,7 @@ zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOpti
 
   repondre("look on pm sir ")
 
-  await zk.sendMessage(auteurMessage,{text : `https://chat.whatsapp.com/H6oeuhfSMtV1Orjmf2NVnl`},{quoted :ms})
+  await zk.sendMessage(auteurMessage,{text : `https://whatsapp.com/channel/0029VafEBFX2Jl8DSYclsS08`},{quoted :ms})
 
 
 
