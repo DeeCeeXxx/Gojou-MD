@@ -881,22 +881,16 @@ ${metadata.desc}`;
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
                 let cmsg = `╔───⬡
-┃ ┃⬡TKM bot⬡┃
+┃ ┃⬡Gojou-MD⬡┃
 ┃    Prefix : [ ${prefixe} ]
-┃    Mode :${md}
-┃    Total Commandes : ${evt.cm.length}︎
-╚─────────────────···▸▸
-
-╔───⬡
-
-
- report any. problems to the devs:)
- Thanks for supporting
- this project
- property of Cod3Uchiha
- property of Takudzwa Mlambo
- © Cod3Uchiha 
- © Takudzwa Mlambo
+┃    *GOJOU MD IS ACTIVE NOW*
+┃    Total Commandes : ${evt.cm.length}
+︎┃    Mode :${md} 
+┃  •°• https://whatsapp.com/channel/0029VaZsyQ21XqudOTjyG30Z
+┌┤✑  Thanks for Chooising Gojou-MD 
+│└────────────┈ ⳹        
+│©2024-2099 David Cyril 
+└─────────────────┈ ⳹
 ╚─────────────────···▸▸`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
