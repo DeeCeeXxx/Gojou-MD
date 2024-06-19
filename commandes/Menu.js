@@ -34,6 +34,7 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 ╭─────────────────☉
 │▫️╭─────────────☉
+│  │ *GOJOU-MD*
 │▫️│*BOT-OWNER* : ${s.OWNER_NAME}
 │▫️│*Date* : ${date}
 │▫️│*PREFIX* : ${s.PREFIXE}
@@ -54,7 +55,7 @@ let menuMsg = `
     *YOWAIMO*
 ╰─────────☉
 
- *❄︎COMMAND LIST❄︎*
+ *⚡GOJOU-MD COMMAND LIST⚡*
 `;
 
     for (const cat in coms) {
